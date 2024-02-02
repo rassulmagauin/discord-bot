@@ -26,7 +26,14 @@ This Discord bot has versatile capabilities, including language translation, wea
    cd discord-bot
    ```
 
-2. **Configure Environment**
+2. **Discord Bot Configuration**
+    Navigate to the Discord Developer Portal and create a new application.
+    Go to the Bot section and add a bot. Here, you will find your DISCORD_BOT_TOKEN.
+    Under the Bot permissions, select Administrator to give your bot full access to Discord API features. This is necessary for functionalities such as message reading, writing, and more.
+    Enable all intents under the Bot section to ensure your bot can listen to messages, reactions, and other events on Discord.
+    Use the OAuth2 section to generate an invite link for your bot. Make sure to select bot scope and assign it the necessary permissions (or simply Administrator for all permissions).
+    Invite the bot to your server using the generated invite link.
+3. **Configure Environment**
 
    In the project's root directory, create a `.env` file containing your Discord bot token and the WeatherAPI.com API key:
 
@@ -35,7 +42,7 @@ This Discord bot has versatile capabilities, including language translation, wea
    WEATHER_API_KEY=your_weatherapi_key
    ```
 
-3. **Install Dependencies**
+4. **Install Dependencies**
 
    Ensure Go is installed on your system and install the project dependencies:
 
@@ -43,7 +50,7 @@ This Discord bot has versatile capabilities, including language translation, wea
    go get .
    ```
 
-4. **Launch the Bot**
+5. **Launch the Bot**
 
    Execute the bot with:
 
