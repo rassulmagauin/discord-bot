@@ -59,12 +59,14 @@ This Discord bot has versatile capabilities, including language translation, wea
    go run main.go
    ```
 
-### Commands
+## Commands
 
 - **Translate Messages**: React with a flag emoji to translate the message to the corresponding language.
-- **Weather**: `!servant weather [location]` - Retrieves weather information for the specified location.
-- **Create Polls**: `!servant poll "Question" "Option1" "Option2"...` - Initiates a poll with provided options.
-- **Play Tic Tac Toe**: `!servant start @opponent` to begin a game, followed by `!servant move [game id] [row] [column]` for gameplay.
+- **Weather**: Use `!servant weather [location]` to retrieve weather information for the specified location.
+- **Create Polls**: Use `!servant poll "Question" "Option1" "Option2"...` to initiate a poll with the provided options.
+- **Play Tic Tac Toe**: Use `!servant start @opponent` to begin a game, followed by `!servant move [game id] [row] [column]` for gameplay.
+- **Help**: Use `!servant help` to display a list of all available commands and their descriptions for quick reference.
+
 
 ### Presentation
 
