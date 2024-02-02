@@ -66,3 +66,7 @@ This Discord bot has versatile capabilities, including language translation, wea
 - **Create Polls**: `!servant poll "Question" "Option1" "Option2"...` - Initiates a poll with provided options.
 - **Play Tic Tac Toe**: `!servant start @opponent` to begin a game, followed by `!servant move [game id] [row] [column]` for gameplay.
 
+### Presentation
+
+- Demonstration of this bot you can see in this YouTube video: https://youtu.be/cF_W1WXTdCs
+
