@@ -27,12 +27,13 @@ This Discord bot has versatile capabilities, including language translation, wea
    ```
 
 2. **Discord Bot Configuration**
-    Navigate to the Discord Developer Portal and create a new application.
-    Go to the Bot section and add a bot. Here, you will find your DISCORD_BOT_TOKEN.
-    Under the Bot permissions, select Administrator to give your bot full access to Discord API features. This is necessary for functionalities such as message reading, writing, and more.
-    Enable all intents under the Bot section to ensure your bot can listen to messages, reactions, and other events on Discord.
-    Use the OAuth2 section to generate an invite link for your bot. Make sure to select bot scope and assign it the necessary permissions (or simply Administrator for all permissions).
-    Invite the bot to your server using the generated invite link.
+   - Navigate to the https://discord.com/developers/applications and create a new application.
+   - Go to the Bot section and add a bot. Here, you will find your `DISCORD_BOT_TOKEN`.
+   - Under the Bot permissions, select `Administrator` to give your bot full access to Discord API features. This is necessary for functionalities such as message reading, writing, and more.
+   - Enable all intents under the Bot section to ensure your bot can listen to messages, reactions, and other events on Discord.
+   - Use the OAuth2 section to generate an invite link for your bot. Make sure to select bot scope and assign it the necessary permissions (or simply `Administrator` for all permissions).
+   - Invite the bot to your server using the generated invite link.
+
 3. **Configure Environment**
 
    In the project's root directory, create a `.env` file containing your Discord bot token and the WeatherAPI.com API key:
@@ -64,12 +65,4 @@ This Discord bot has versatile capabilities, including language translation, wea
 - **Weather**: `!servant weather [location]` - Retrieves weather information for the specified location.
 - **Create Polls**: `!servant poll "Question" "Option1" "Option2"...` - Initiates a poll with provided options.
 - **Play Tic Tac Toe**: `!servant start @opponent` to begin a game, followed by `!servant move [game id] [row] [column]` for gameplay.
-- **Asynchronous Operations**: The bot efficiently handles API requests and translations asynchronously, ensuring seamless user interactions.
 
-## Contributing
-
-We welcome contributions of all forms. If you're interested in enhancing the bot's functionality or suggesting improvements, please fork the repository, commit your changes, and open a pull request.
-
-## License
-
-This project is made available under the MIT License. For more details, see the LICENSE file.
