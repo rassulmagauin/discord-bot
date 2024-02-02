@@ -1,4 +1,4 @@
-```markdown
+
 # Discord Bot
 
 ## Introduction
@@ -66,5 +66,3 @@ We welcome contributions of all forms. If you're interested in enhancing the bot
 ## License
 
 This project is made available under the MIT License. For more details, see the LICENSE file.
-```
-Ensure to replace `https://example.com/discord-bot.git` with your actual repository URL and adjust any details as necessary to match your bot's features and setup process.
